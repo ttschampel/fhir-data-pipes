@@ -17,10 +17,12 @@ The FHIR Pipelines Controller supports multiple input modes:
 - **BULK_EXPORT**: Fetch data using the FHIR Bulk Data Export API
 - **HAPI_JDBC**: Read directly from a HAPI FHIR server database via JDBC
 - **OPENMRS_JDBC**: Read directly from an OpenMRS database via JDBC
-- **NDJSON**: Process FHIR resources from NDJSON files (see [NDJSON Input Guide](NDJSON_INPUT.md))
+- **NDJSON**: Process FHIR resources from NDJSON files (see
+  [NDJSON Input Guide](NDJSON_INPUT.md))
 - **JSON**: Process FHIR resources from JSON Bundle files
 
-For detailed information on using NDJSON or JSON files as input, see the [NDJSON Input Guide](NDJSON_INPUT.md).
+For detailed information on using NDJSON or JSON files as input, see the
+[NDJSON Input Guide](NDJSON_INPUT.md).
 
 ## Usage
 
